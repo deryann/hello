@@ -51,7 +51,7 @@ request.onload = function() {
 }
 function print_jsoninfo(jsonObj){
 	var myH2 = document.createElement('h2');
-	myH2.textContent = jsonObj;
+	myH2.textContent = jsonObj["key1"];
 	section.appendChild(myH2);
 }
 
